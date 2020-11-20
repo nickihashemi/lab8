@@ -181,7 +181,13 @@ public class BST<T extends Comparable<T>> {
         return result;
     }
 
-
+    /*
+     * range sum implementation
+     * @param node
+     * @param L
+     * @param R
+     * @param list
+     */
     private void rangeSum(Node<T> node, int L, int R, ArrayList<Integer> list) {
 
         if (node != null) {

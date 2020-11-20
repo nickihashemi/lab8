@@ -14,7 +14,7 @@ public class BSTtest {
 //        tree.print();
 //        System.out.println();
         System.out.println("Tree: " + tree.toString());
-        System.out.println("Range Sum: " + tree.rangeSum(1, 4));
+        System.out.println("Range Sum 1-4: " + tree.rangeSum(1, 4));
         tree.delete(4);
         System.out.println("Tree after removing 4: " + tree.toString());
 
